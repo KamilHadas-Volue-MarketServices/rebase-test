@@ -17,19 +17,6 @@
       "InputImportHour": 14,
       "InputImportMinute": 10
     },
-    "EmailSettings": {
-      "ServiceUrl": "s/",
-      "IsEnabled": true,
-      "To": [
-        {
-          "FullName": "Kamadas",
-          "Address": "ka.com"
-        }
-      ],
-      "Cc": [
-        
-      ]
-    },
     "SwaggerJsonBasePath": "",
     "AuthorizationSettings": {
       "AdminToken": "",
@@ -46,10 +33,10 @@
         }
       },
       "Norway": {
-        "BaseUrl": "https/api/",
+        "BaseUrl": "s/api/",
         "AuthenticationEnabled": true,
         "BaseAuthentication": {
-          "User": "PlannerApi",
+          "User": "s",
           "Password": "password"
         }
       }
