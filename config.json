@@ -5,20 +5,20 @@
     },
     "SimpleLogSettings": {
       "ConnectionString": "",
-      "ApplicationName": "Pocal",
-      "LogLevel": "Debug",
+      "ApplicationName": "Poasdascal",
+      "LogLevel": "Debuasdg",
       "IsEnabled": true
     },
     "HangFireAuth": {
-      "User": "Enter_the_User",
-      "Password": "Enter_the_Password"
+      "User": "Enter_tasdasdhe_User",
+      "Password": "Enterasdasd_the_Password"
     },
     "SchedulesSettings": {
       "InputImportHour": 14,
       "InputImportMinute": 10
     },
     "EmailSettings": {
-      "ServiceUrl": "httpsilService/",
+      "ServiceUrl": "httpasdasdasdsilService/",
       "IsEnabled": true,
       "To": [
         {
