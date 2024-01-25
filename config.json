@@ -1,0 +1,66 @@
+{
+    "DatabaseSettings": {
+      "ConnectionString": "lol",
+      "UseInMemoryDatabase": false
+    },
+    "SimpleLogSettings": {
+      "ConnectionString": "",
+      "ApplicationName": "Pocal",
+      "LogLevel": "Debug",
+      "IsEnabled": true
+    },
+    "HangFireAuth": {
+      "User": "Enter_the_User",
+      "Password": "Enter_the_Password"
+    },
+    "SchedulesSettings": {
+      "InputImportHour": 14,
+      "InputImportMinute": 10
+    },
+    "EmailSettings": {
+      "ServiceUrl": "httpsilService/",
+      "IsEnabled": true,
+      "To": [
+        {
+          "FullName": "Kamadas",
+          "Address": "ka.com"
+        }
+      ],
+      "Cc": [
+        
+      ]
+    },
+    "SwaggerJsonBasePath": "",
+    "AuthorizationSettings": {
+      "AdminToken": "",
+      "IsAuthenticationEnabled": true,
+      "SwaggerClientId": ""
+    },
+    "AncitraSettings": {
+      "Sweden": {
+        "BaseUrl": "httpapi/",
+        "AuthenticationEnabled": true,
+        "BaseAuthentication": {
+          "User": "PlannerApi",
+          "Password": "password"
+        }
+      },
+      "Norway": {
+        "BaseUrl": "https/api/",
+        "AuthenticationEnabled": true,
+        "BaseAuthentication": {
+          "User": "PlannerApi",
+          "Password": "password"
+        }
+      }
+  
+    },
+    "FeatureManagement": {
+      "RunInTestMode": false
+    },
+    "TssWrapperSettings": {
+      "Url": "",
+      "IsEnabled": true
+    },
+    "NumberOfBidsLimit": 480
+  }
